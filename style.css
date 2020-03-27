@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit:300&display=swap');
+body {
+    margin:0;
+    padding:0;
+    background: url("https://i.ibb.co/yhZh4YH/114-1148325-curve-shape-png-jpg-royalty-free-library-curve.png");
+    background-repeat:no-repeat ;
+    font-family: 'Sen', sans-serif;
+  background-size:contain;
+}
+.hamburger
+{
+    padding:5px;
+    height:60px;
+    background:url("https://i.ibb.co/kGJDYY3/hamburger-menu-icon-png-white.png");
+    background-position:center center ;
+    background-size: 100px;
+    position:fixed;
+    top:0%;
+    right:0%;
+    width:60px;
+    z-index:9;
+    
+}
+
+.items
+{
+    position:fixed;
+    width:300px;
+    top:0;
+    bottom:0;
+    background:black;
+    color:white;
+}
+
+.items li
+{
+    padding:10px;
+    margin:20px;
+    list-style-type:none;
+}
+.items li a
+{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+.bar
+{
+    width:100%;
+    padding:20px;
+    margin:0;
+    position:fixed;
+    z-index:1;
+    position:fixed;
+    top:0;
+}
+.logo
+{
+    display:block;
+    margin:100px auto 0 auto;
+    
+    border-radius:50px;
+    text-align:center;
+}
+.logo img 
+{
+    box-shadow:0 10px 25px -5px #333;
+    border-radius:50px;
+    width:100px;
+}
+.container 
+{
+  width:90%;
+  margin:50px auto;
+}
+.about 
+{
+padding:1px 20px 20px 20px;
+  box-shadow: 0 7px 30px 1px #aaa;
+  border-radius:5px;
+}
+.m-but
+{
+  padding: 10px 20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  background:#03A9F4;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px -5px #888;
+  margin:30px;
+}
+.skill
+{
+  padding:20px 20px 40px 20px;
+  border-radius:5px;
+  border:1px solid #ccc;
+  text-align:center;
+  margin:20px 0 70px 0;
+  box-shadow: 0 10px 20px 0 #aaa
+}
+p
+{
+    font-family: 'Kanit', sans-serif;
+  font-size:18px;
+  text-align:center;
+  color:#555;
+}
+footer
+{
+  background: #00ACC1;
+  padding:20px
+}
+.sc-icon
+{
+    padding:20px;
+}
